@@ -71,6 +71,11 @@
   }
   .footer-links {
     flex: 1;
+    color: var(--secondary-high);
+    transition: all 0.2s ease;
+  }
+  .footer-links:hover {
+    color: var(--primary);
   }
   .list span {
     font-weight: bold;
