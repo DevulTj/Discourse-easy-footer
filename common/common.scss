@@ -1,7 +1,7 @@
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
-  background: $header_background;
+  background: linear-gradient(0deg, rgba(23, 25, 25, 0.9) 20%, rgba(23, 25, 25, 0) 40%, rgba(23, 25, 25, 0) 100%);
   .flexbox {
     width: 100%;
     display: flex;
