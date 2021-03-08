@@ -77,6 +77,11 @@
   }
   .footer-section-link-wrapper a {
     color: var(--secondary-high);
+    transition: all 0.2s ease;
+  }
+
+  .footer-section-link-wrapper a:hover {
+    color: var(--primary);
   }
   .list {
     margin: 1em;
