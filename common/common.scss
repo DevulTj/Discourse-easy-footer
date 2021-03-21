@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--primary);
+    color: var(--secondary-high);
     padding: 4em 0 1em 0;
   }
   .first-box {
@@ -16,7 +16,7 @@
       font-weight: bold;
       margin-bottom: 0.5em;
       display: block;
-      color: $primary;
+      color: var(--secondary-high);
     }
     .blurb {
       color: var(--secondary-high);
@@ -42,7 +42,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    border-top: 1px solid rgba(var(--primary-low-rgb), 0.05);
+    border-top: 1px solid rgba(var(--secondary-high-low-rgb), 0.05);
     .social {
       display: flex;
       flex-wrap: wrap;
@@ -75,7 +75,7 @@
     transition: all 0.2s ease;
   }
   .footer-links:hover {
-    color: var(--primary);
+    color: var(--secondary-high);
   }
   .list span {
     font-weight: bold;
@@ -86,7 +86,7 @@
   }
 
   .footer-section-link-wrapper a:hover {
-    color: var(--primary);
+    color: var(--secondary-high);
   }
   .list {
     margin: 1em;
@@ -127,7 +127,7 @@
   .custom-footer {
     .first-box {
       max-width: 100%;
-      border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
+      border-bottom: 1px solid rgba(var(--secondary-high-low-rgb), 0.05);
       margin-bottom: 1em;
       padding-bottom: 1em;
 
